@@ -17,3 +17,7 @@ The reachability plot gives insight into the structure of the clusters. Question
 
 # Source
 Ankerst, M., Breunig, M. M., Kriegel, H. P., & Sander, J. (1999, June). OPTICS: ordering points to identify the clustering structure. In ACM Sigmod record (Vol. 28, No. 2, pp. 49-60). ACM.
+
+# Credits
+The python code is adapted from: http://chemometria.us.edu.pl/download/optics.py
+Which I found in this repo: https://github.com/amyxzhang/OPTICS-Automatic-Clustering
