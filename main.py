@@ -1,3 +1,12 @@
+import plotly.plotly as py
+from plotly.graph_objs import Bar, Scatter, Figure, Layout
+import numpy as np
+from scipy.spatial.distance import pdist
+import scipy.spatial.distance as H
+from sklearn.cluster import KMeans
+import pylab as P
+
+
 def optics_alg(x, k, distMethod='euclidean'): #was euclidean
     if len(x.shape) > 1:
         m, n = x.shape
